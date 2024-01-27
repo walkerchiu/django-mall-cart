@@ -50,3 +50,16 @@ ext install markdownlint
 # Visual Studio Code extension to prettify markdown tables.
 ext install markdown-table-prettify
 ```
+
+Pre Commit
+
+```sh
+# Install pre-commit to manage git hooks
+brew install pre-commit
+
+# Install the git hook scripts.
+pre-commit install
+
+# Run against all the files.
+pre-commit run --all-files
+```
